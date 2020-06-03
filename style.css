@@ -1,0 +1,76 @@
+
+body
+{
+	background-color: black;
+}
+
+.header1
+{
+	background-color: lightblue;
+	text-align:center;
+	color:white;
+	text-transform: uppercase;
+}
+
+.deco
+{
+	font-size:20px;
+}
+
+.header2
+{
+	background-color: white;
+	color: lightblue;
+	margin: 0px auto;
+}
+
+.mybtn
+{
+	color:lightblue;
+	background-color: transparent;
+	border: none;
+	transition: all 0.7s;
+}
+
+.mybtn:hover
+{
+	background-color: lightblue;
+	color:white;
+
+}
+
+.mybtn:active
+{
+	border: lightblue;
+}
+
+
+.selected
+{
+	background-color: lightblue;
+	color:white;
+}
+
+.square
+{
+
+width:30%;
+margin:1.66%;
+padding-bottom: 30%;
+background-color: purple;
+float: left; 
+border-radius: 10%;
+
+transition: all 0.7s;
+}
+
+#container
+{
+	margin: 30px auto;
+	max-width:500px;
+}
+
+.wrong
+{
+	background-color: black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="loadingFunction()">
+
+	<!-- The Header -->
+
+	<div class="conatiner header1">
+		<p class="mb-0 deco">THE GREAT</p>
+		<h1 id="colorDisplay">RGB</h1>
+		<p class="mb-0 deco">GUESSING GAME</p>
+		
+	</div>
+
+	<!-- The stripe -->
+
+	<div class="d-flex justify-content-around header2 px-5">
+		<button id="reset" class="mybtn">NEW COLORS</button>
+		<div><span id="ans"></span></div>
+		<div>
+			<button class="mybtn px-0" id="easy">EASY</button>
+			<button class="mybtn selected px-0" id="hard">HARD</button>
+
+		</div>
+		
+	</div>
+
+
+	<!-- The color blocks -->
+
+	<div id="container">
+
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+
+		<div id="removedblocks">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+		
+	</div>
+
+
+	<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
